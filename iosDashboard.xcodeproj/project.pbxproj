@@ -15,6 +15,7 @@
 		EF25D48626825B9D00A80789 /* iosDashboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF25D48426825B9D00A80789 /* iosDashboard.xcdatamodeld */; };
 		EF25D49126825B9D00A80789 /* iosDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25D49026825B9D00A80789 /* iosDashboardTests.swift */; };
 		EF25D49C26825B9D00A80789 /* iosDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25D49B26825B9D00A80789 /* iosDashboardUITests.swift */; };
+		EF25D4AA26825F5800A80789 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25D4A926825F5800A80789 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF25D49726825B9D00A80789 /* iosDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF25D49B26825B9D00A80789 /* iosDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosDashboardUITests.swift; sourceTree = "<group>"; };
 		EF25D49D26825B9D00A80789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF25D4A926825F5800A80789 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EF25D47B26825B9B00A80789 /* ContentView.swift */,
 				EF25D47D26825B9D00A80789 /* Assets.xcassets */,
 				EF25D48226825B9D00A80789 /* Persistence.swift */,
+				EF25D4A926825F5800A80789 /* WeatherView.swift */,
 				EF25D48726825B9D00A80789 /* Info.plist */,
 				EF25D48426825B9D00A80789 /* iosDashboard.xcdatamodeld */,
 				EF25D47F26825B9D00A80789 /* Preview Content */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF25D4AA26825F5800A80789 /* WeatherView.swift in Sources */,
 				EF25D48626825B9D00A80789 /* iosDashboard.xcdatamodeld in Sources */,
 				EF25D48326825B9D00A80789 /* Persistence.swift in Sources */,
 				EF25D47C26825B9B00A80789 /* ContentView.swift in Sources */,
